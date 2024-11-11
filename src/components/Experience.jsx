@@ -12,12 +12,9 @@ export const Experience = () => {
       >
         Experience
       </motion.h2>
-      <div className="flex flex-col items-center justify-center  ">
+      <div className="flex flex-col items-center justify-center">
         {EXPERIENCES.map((experience, index) => (
-          <div
-            key={index}
-            className="mb-8 flex flex-col lg:flex-row lg:items-center lg:justify-between w-full"
-          >
+          <div key={index} className="mb-8 flex flex-col lg:flex-row w-full">
             {/* Year Section - Left side */}
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -32,7 +29,7 @@ export const Experience = () => {
             <div className="w-full max-w-xl lg:w-3/4 text-center lg:text-left lg:mr-60">
               <motion.h3
                 whileInView={{ opacity: 1, x: 0 }}
-                initial={{ opacity: 0, x: -200 }}
+                initial={{ opacity: 0, x: 200 }}
                 transition={{ duration: 2 }}
                 className="mb-2 font-semibold"
               >
@@ -54,12 +51,12 @@ export const Experience = () => {
               >
                 {experience.description}
               </motion.p>
-              <div className="flex flex-wrap">
+              <div className="flex flex-wrap justify-center lg:justify-start">
                 {experience.technologies.map((tech, index) => (
                   <motion.span
                     key={index}
                     whileInView={{ opacity: 1, x: 0 }}
-                    initial={{ opacity: 0, x: -200 }}
+                    initial={{ opacity: 0, x: 200 }}
                     transition={{ duration: 2 }}
                     className="mr-2 mt-4 py-2 rounded px-2 text-sm font-medium text-white bg-emerald-600"
                   >

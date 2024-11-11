@@ -17,7 +17,7 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
+// import { TbBrandNextjs } from "react-icons/tb";
 import { motion } from "framer-motion";
 
 // Define iconVariants function with customizable duration
@@ -75,14 +75,14 @@ export const Technology = () => {
             <SiTypescript className="text-blue-500 text-5xl" />
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             initial="initial"
             animate="animate"
             variants={iconVariants(5)}
             className="p-4 flex justify-center items-center"
           >
             <TbBrandNextjs className="text-5xl" />
-          </motion.div>
+          </motion.div> */}
 
           {/* Frontend */}
           <motion.div
