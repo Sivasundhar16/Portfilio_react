@@ -41,7 +41,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional website that Companies post job details and user can apply and post their professionl details ",
-    technologies: ["MongoDB", "TailwindCSS", "Tanstack", "Node.js", "Express"],
+    technologies: ["MongoDB", "TailwindCSS", "Tanstack", "Node.js"],
   },
   {
     title: "EMPLOYEE MANAGEMENT SYSTEM",
