@@ -10,7 +10,7 @@ export const Experience = () => {
         transition={{ duration: 2 }}
         className="my-20 text-center text-4xl "
       >
-        Experience
+        Internship and Education
       </motion.h2>
       <div className="flex flex-col items-center justify-center">
         {EXPERIENCES.map((experience, index) => (

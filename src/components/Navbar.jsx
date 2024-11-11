@@ -1,6 +1,6 @@
 import logo from "../assets/vs file.png";
 
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
 
 export const Navbar = () => {
   return (
@@ -19,7 +19,7 @@ export const Navbar = () => {
 
       <div className="m-8   flex items-center justify-center gap-8  text-4xl">
         <a
-          href=""
+          href="https://www.linkedin.com/in/siva02"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
@@ -27,7 +27,7 @@ export const Navbar = () => {
           <FaLinkedin />
         </a>
         <a
-          href=""
+          href="https://github.com/Sivasundhar16"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
@@ -35,15 +35,15 @@ export const Navbar = () => {
           <FaGithub />
         </a>
         <a
-          href=""
+          href="https://wa.me/9629279196"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Instagram"
+          aria-label="What's App"
         >
-          <FaInstagram />
+          <FaWhatsapp />
         </a>
         <a
-          href=""
+          href="https://x.com/SivaSundhar17"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Twitter"

@@ -39,9 +39,9 @@ const Project = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 4 }}
-              className="w-full max-w-xl lg:w-3/4 lg:ml-8 lg:mt-0 lg:pt-2 flex flex-col justify-center items-center mx-auto py-2"
+              className="w-full max-w-xl lg:w-3/4 lg:ml-8 lg:mt-0 lg:pt-2 flex flex-col justify-center items-center mx-auto py-6 "
             >
-              <h3 className="mb-2 font-semibold text-2xl my-4 text-center">
+              <h3 className="mb-2 font-semibold text-2xl my-4 text-center uppercase">
                 {project.title}
               </h3>
               <p className="mb-4 text-stone-400 text-center">

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export const Contact = () => {
   return (
-    <div className="border-t border-stone-900 pb-20 ">
+    <div className="border-t border-stone-900 pb-20">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 1, y: -100 }}
@@ -29,11 +29,12 @@ export const Contact = () => {
         >
           {CONTACT.phoneNo}
         </motion.p>
+        {/* Optimized email link */}
         <motion.a
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 1, x: -100 }}
           transition={{ duration: 1.5 }}
-          href="#"
+          href={`mailto:${CONTACT.email}`}
           className="border-b"
         >
           {CONTACT.email}
