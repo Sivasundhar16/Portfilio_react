@@ -1,4 +1,3 @@
-// import profilePicture from "../assets/raviKumarProfile.webp";
 import siva from "../assets/siva effect.jpg";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
@@ -69,7 +68,7 @@ export const Hero = () => {
             </motion.p>
             <motion.a
               variants={childVariants}
-              href="/Sivasundar Resume.pdf"
+              href="/Sivasundar.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download

@@ -52,7 +52,7 @@ const Project = () => {
               <div className="flex flex-wrap justify-center space-x-2">
                 {project.technologies.map((tech, index) => (
                   <span
-                    className="rounded bg-indigo-600 p-2 sm:mb-1 text-sm font-medium text-stone-300"
+                    className="rounded  p-2 sm:mb-1 text-sm font-medium text-stone-300"
                     key={index}
                   >
                     {tech}
